@@ -127,11 +127,17 @@ main {
     padding: 20px;
     text-align: center;
 }
-.desc-box p {
+.desc-box {
     background-color: #336699;
-    color: white;
-    padding: 30px;
-    height: 400px;
+    height: 575px;
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 180px;
+}
+.desc-box p {
+    padding: 15px 30px;
+    color: #fbdfdf;
+    font-weight: 500;
 }
 hr {
     height: 15px;
