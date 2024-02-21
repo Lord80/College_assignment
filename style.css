@@ -55,10 +55,10 @@
 .search-button:hover {
     background-color: #45a049;
 }
-h1 {
+.navbar h1 {
     font-size: 25px;
 }
-h2 {
+#products h2 {
     margin: 26px;
     font-size: 35px;
     font-weight: bold;
@@ -121,9 +121,24 @@ main {
 #product4 img {
     width: 278px;
 }
-footer {
-    background-color: #336699;
+#foot-cp {
+    background-color: #26496b;
     color: white;
     padding: 20px;
     text-align: center;
+}
+.desc-box p {
+    background-color: #336699;
+    color: white;
+    padding: 30px;
+    height: 400px;
+}
+hr {
+    height: 15px;
+    border: 2px solid #608ab4;
+    background-color: #608ab4;
+}
+/* about.html */
+.about-para {
+    padding: 15px 25px;
 }
