@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo/logo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body >
+<body>
     <header>
         <nav class="navbar">
             <h1>Medlife Corner</h1>
@@ -26,29 +26,31 @@
         </nav>
     </header>
     <main>
-        <h1>About Us</h1>
-        <section class="about-para">
-            <h2>Our Story</h2>
-            <p>Welcome to Medlife Corner, where we are committed to providing exceptional healthcare services and products to our community. Our journey began over 6 months ago with a simple yet powerful vision: to be the trusted partner in health and wellness for every individual we serve.</p>
-            <p>At Medlife Corner, we understand that healthcare is not just about dispensing medications; it's about fostering relationships, providing personalized care, and empowering our customers to live healthier lives. From our humble beginnings as a small neighborhood pharmacy, we have grown into a trusted healthcare destination, serving thousands of patients each year.</p>
-        </section>
-        <section class="about-para">
-            <h2>Commitment to Excellence</h2>
-            <p>From our pharmacists to our support staff, everyone at Medlife Corner is dedicated to upholding the highest standards of professionalism, integrity, and customer service. We go above and beyond to ensure that every interaction with our pharmacy is a positive and enriching experience.</p>
-        </section>
-        <section class="about-para">
-            <h2>Community-Centered Care</h2>
-            <p>As a locally owned and operated pharmacy, we are deeply rooted in our community. We believe in giving back and actively participate in various community outreach programs, health fairs, and educational initiatives. Our goal is to not only meet the healthcare needs of our community but also to actively contribute to its well-being and prosperity.</p>
-        </section>
-        <section class="about-para">
-            <h2>Looking Ahead</h2>
-            <p>As we look to the future, we remain committed to our founding principles of excellence, community, innovation, and personalized care. We are excited about the opportunities that lie ahead and are grateful for the trust and support of our loyal customers. Thank you for choosing Medlife Corner as your trusted healthcare partner.</p>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <p>If you have any questions or inquiries, feel free to contact us using the form below or via the provided contact details:</p>
+                <ul>
+                    <li>Email: info@medlifecorner.com</li>
+                    <li>Phone: 123-456-7890</li>
+                    <li>Address: 123 Main Street, City, Country</li>
+                </ul>
+            </div>
+            <form class="contact-form" action="submit_contact_form.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
-    <hr>
     <footer>
+        <hr>
         <section class="desc-container">
-            <div class="desc-box">
+            <div class="desc-box"> 
                 <p>Welcome to Medlife Corner, your premier destination for a wide range of high-quality health and wellness products. At Medlife Corner, we strive to provide our customers with top-notch products curated to enhance their well-being and promote a healthy lifestyle.</p>
 
                 <p>Explore our extensive selection of products, carefully sourced from trusted brands and suppliers, ranging from skincare essentials to nutritional supplements and medical devices. Whether you're looking for Ayurvedic remedies, skincare solutions, or dietary supplements, we have everything you need to support your health journey.</p>
